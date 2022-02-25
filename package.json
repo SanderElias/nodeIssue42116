@@ -1,0 +1,13 @@
+{
+  "name": "nodeissue42116",
+  "version": "0.0.0",
+  "description": "This is a repoduction for the issue",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "works": "node --experimental-specifier-resolution=node index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "type": "module"
+}
